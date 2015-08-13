@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.circleviewtest.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_1"
+                android:text="HELLO WORLD"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_2"
+                android:gravity="center"
+                android:text="HELLO WORLD"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_1"
+                android:hint="HELLO WORLD"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_2"
+                android:gravity="center"
+                android:hint="HELLO WORLD"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_1"
+                android:src="@drawable/potrait" />
+
+            <ImageView
+                android:id="@+id/iv_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_2"
+                android:src="@drawable/potrait" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
